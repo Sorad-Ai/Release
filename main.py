@@ -1,6 +1,6 @@
 import streamlit as st
 
-from calc import calc
+from ./calc import calc
 from obj import obj
 from dash import main
 import time
