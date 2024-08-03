@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 # Set the page config to wide mode
 st.set_page_config(
