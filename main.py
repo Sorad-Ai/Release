@@ -1,5 +1,5 @@
 import streamlit as st
-import cv2
+import cv2 as cvv
 import numpy as np
 import mediapipe as mp
 from cvzone.HandTrackingModule import HandDetector
