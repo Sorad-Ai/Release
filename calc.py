@@ -13,8 +13,8 @@ hands = mp_hands.Hands()
 mp_drawing = mp.solutions.drawing_utils
 
 # Initialize pygame mixer for audio playback
-# pygame.mixer.init()
-# click_sound = pygame.mixer.Sound('./sample.mp3')
+pygame.mixer.init()
+click_sound = pygame.mixer.Sound('./sample.mp3')
 
 # Parameters
 width, height = 1280, 720  # Adjusted resolution for performance
@@ -110,13 +110,13 @@ def process_frame(frame):
                 result = ""
                 last_click_time = current_time
                 ac_clicked = True
-                # click_sound.play()
+                click_sound.play()
             # Check for Backspace button
             elif (index_pos[0] - backspace_button_position[0])**2 + (index_pos[1] - backspace_button_position[1])**2 < button_radius**2:
                 current_input = current_input[:-1]
                 last_click_time = current_time
                 backspace_clicked = True
-                # click_sound.play()
+                click_sound.play()
             elif button_clicked:
                 if button_clicked == "=":
                     if previous_button != "=":
@@ -130,7 +130,7 @@ def process_frame(frame):
                     current_input += button_clicked
                     previous_button = None
                 last_click_time = current_time
-                # click_sound.play()
+                click_sound.play()
             else:
                 ac_clicked = False
                 backspace_clicked = False
