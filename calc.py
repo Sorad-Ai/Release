@@ -13,7 +13,7 @@ hands = mp_hands.Hands()
 mp_drawing = mp.solutions.drawing_utils
 
 # Initialize pygame mixer for audio playback
-click_sound = pygame.mixer.Sound('sample.mp3')
+click_sound = pygame.mixer.Sound('./sample.mp3')
 
 # Parameters
 width, height = 1280, 720  # Adjusted resolution for performance
