@@ -1,9 +1,12 @@
 import streamlit as st
+from calc import calc
+from obj import obj
+from dash import main
 import time
 
 # Set the page config to wide mode
 st.set_page_config(
-    page_title="Hand Gesture Calculator",
+    page_title="Sorad AI",
      page_icon="./logo.png",
     layout="wide",  # This makes the layout wide
     initial_sidebar_state="expanded"  # Optional: This expands the sidebar by default
