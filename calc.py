@@ -13,7 +13,6 @@ hands = mp_hands.Hands()
 mp_drawing = mp.solutions.drawing_utils
 
 # Initialize pygame mixer for audio playback
-pygame.mixer.init()
 click_sound = pygame.mixer.Sound('sample.mp3')
 
 # Parameters
