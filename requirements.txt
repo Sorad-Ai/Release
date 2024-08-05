@@ -4,6 +4,7 @@ opencv-python
 mediapipe
 streamlit
 ultralytics
+cv2
 ultralytics-thop
 numpy
 pygame
