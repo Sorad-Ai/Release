@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
-from calc import calc
-from obj import obj
+# from calc import calc
+# from obj import obj
 from dash import main
 import time
 
