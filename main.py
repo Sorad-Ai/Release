@@ -1,4 +1,5 @@
 import streamlit as st
+import opencv
 import cv2 as cvv
 # from calc import calc
 # from obj import obj
