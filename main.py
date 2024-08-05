@@ -1,5 +1,5 @@
 import streamlit as st
-import cv2
+import cv2 as cvv
 # from calc import calc
 # from obj import obj
 from dash import main
