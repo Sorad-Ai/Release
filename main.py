@@ -25,7 +25,6 @@ if st.sidebar.button("Virtual Calculator"):
     calc()
 if st.sidebar.button("Object Detector"):
     time.sleep(1)
-    obj()
 
 i = 0
 if i <1:
